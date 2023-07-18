@@ -1,6 +1,6 @@
 {
   "name": "discord-embeds-paginator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Discord-Embeds-Paginator is a versatile and user-friendly package that simplifies the process of creating paginated embeds for Discord bots.",
   "main": "main.js",
   "scripts": {
