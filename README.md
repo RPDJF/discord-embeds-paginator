@@ -2,10 +2,10 @@
 
 Discord Embeds Paginator is a customizable pagination module for Discord bots using **Discord.js**. It allows you to display embed pages and navigate through them using buttons.
 
-<img alt="version" src="https://img.shields.io/npm/v/discord-embeds-paginator">
-<img alt="collaborators" src="https://img.shields.io/npm/collaborators/discord-embeds-paginator">
-<img alt="downloads" src="https://img.shields.io/npm/dw/discord-embeds-paginator">
-<img alt="licence" src="https://img.shields.io/npm/l/discord-embeds-paginator">
+![version](https://img.shields.io/npm/v/discord-embeds-paginator)
+![collaborators](https://img.shields.io/npm/collaborators/discord-embeds-paginator)
+![downloads](https://img.shields.io/npm/dw/discord-embeds-paginator)
+![licence](https://img.shields.io/npm/l/discord-embeds-paginator)
 
 ## Installation
 
@@ -54,7 +54,7 @@ Creates a new instance of DiscordEmbedsPaginator.
 
 ## Methods
 
-- **\*createPaginatorMessage(channel)**: Creates the paginator message in the specified channel.
+- **createPaginatorMessage(channel)**: Creates the paginator message in the specified channel.
 - **createPageButtons()**: Creates the navigation buttons for the paginator.
 - **createButtonCollector(message)**: Sets up the button collector to handle button interactions.
 - **getPageEmbed()**: Retrieves the current page embed.
@@ -77,6 +77,6 @@ If you need help or assistance please either ask in my [Discord Server](https://
 
 ## License
 
-This project is licensed under the [MIT License]().
+This project is licensed under the [MIT License](https://github.com/DEEM-0001/discord-embeds-paginator/blob/main/LICENSE).
 
 > Developed by @deemdev with ❤️
