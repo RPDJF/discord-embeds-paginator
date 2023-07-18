@@ -1,3 +1,4 @@
+![banner](./images/Banner.png)
 # Discord Embeds Paginator
 
 Discord Embeds Paginator is a customizable pagination module for Discord bots using **Discord.js**. It allows you to display embed pages and navigate through them using buttons.
