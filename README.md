@@ -37,7 +37,7 @@ paginator.createPaginatorMessage(channel);
 ## Sponsor Us
 
 Do you use **Discord-Embeds-Paginator** and are you satisfied?
-You can support us with a one-time donation to help us improve our work: [Donate here](https://github.com/sponsors/DEEM-0001)
+You can support us with a one-time donation to help us improve our work: [Donate here](https://github.com/sponsors/devdeem)
 
 ## API Documentation
 
@@ -70,7 +70,7 @@ Creates a new instance of DiscordEmbedsPaginator.
 
 ## Do you have any issues?
 
-If you have any issues don't hesitate to report it via [GitHub Issues](https://github.com/DEEM-0001/discord-embeds-paginator/issues).
+If you have any issues don't hesitate to report it via [GitHub Issues](https://github.com/devdeem/discord-embeds-paginator/issues).
 
 ## Support
 
@@ -78,6 +78,6 @@ If you need help or assistance please either ask in my [Discord Server](https://
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/DEEM-0001/discord-embeds-paginator/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/devdeem/discord-embeds-paginator/blob/main/LICENSE).
 
 > Developed by @deemdev with ❤️
