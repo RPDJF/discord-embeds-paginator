@@ -1,4 +1,4 @@
-const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require("discord.js");
+const { ActionRowBuilder, ButtonBuilder, ButtonStyle, Message, ChatInputCommandInteraction } = require("discord.js");
 let colors = require("colors");
 
 class DiscordEmbedsPaginator {
@@ -17,7 +17,7 @@ class DiscordEmbedsPaginator {
     );
   }
 
-  async createPaginatorMessage(channel) {
+  async createPaginatorMessage(context) {
     const pageEmbed = this.getPageEmbed();
 
     if (!pageEmbed) {
@@ -28,10 +28,18 @@ class DiscordEmbedsPaginator {
       );
     }
 
-    const message = await channel.send({
+    const content = {
       embeds: [pageEmbed],
       components: [this.createPageButtons()],
-    });
+    }
+
+    let message;
+    if(context.constructor.name === Message.name)
+      message = await context.channel.send(content);
+    else if(context.constructor.name === ChatInputCommandInteraction.name)
+      message = await context.reply(content);
+    else
+      throw new Error("context is not a message or command interaction");
 
     this.createButtonCollector(message);
   }
